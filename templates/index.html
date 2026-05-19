@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer - Industrial Technology Expert</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-header">
+                <img src="{{ url_for('static', filename='Image.png') }}" alt="Developer" class="profile-img">
+                <div class="profile-info">
+                    <h1 id="main-title">Developer</h1>
+                    <p class="subtitle">Industrial Technology Expert | AIoT & Embedded Systems | Full-Stack Developer | UX/UI | Print & Color Science Specialist | Data-Driven Manufacturing</p>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="card glass">
+                <h2>Professional Summary</h2>
+                <p>I specialize in bridging the gap between industrial production, intelligent automation, software systems, user experience design, and data analytics. With extensive hands-on experience across digital printing, packaging, roll-to-roll production, wide-format printing, color science, prepress workflows, manufacturing operations, and business systems, I combine deep production expertise with modern technologies including AIoT, embedded systems, UX/UI, data analytics, and full-stack web development.</p>
+                <div class="skills">
+                    <span class="skill-tag">AIoT</span>
+                    <span class="skill-tag">Embedded Systems</span>
+                    <span class="skill-tag">Full-Stack Development</span>
+                    <span class="skill-tag">UX/UI Design</span>
+                    <span class="skill-tag">Data Analytics</span>
+                    <span class="skill-tag">Color Science</span>
+                    <span class="skill-tag">Industrial Automation</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">ESP32</span>
+                </div>
+                <button id="status-btn" class="btn-primary">Check System Status</button>
+                <div id="status-response" class="response-box hidden"></div>
+            </section>
+            
+            <section class="card glass">
+                <h2>Core Expertise Areas</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <h3>Data-Driven Process Optimization</h3>
+                        <p>Using Python, machine learning concepts, business intelligence methods, and tools such as WEKA, I transform production data into actionable intelligence—helping optimize workflows, identify bottlenecks, predict maintenance needs, improve operational efficiency, and support strategic decision-making.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Full-Stack Web Development, UX/UI & Business Systems</h3>
+                        <p>I design and develop user-centered digital systems that combine technical capability with usability and operational efficiency. My experience includes creating front-end and back-end web applications, internal enterprise systems & workflow portals, production dashboards & monitoring systems, human-machine interfaces (HMI), data visualization & reporting tools, and automation systems & client portals.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>AIoT, Embedded Systems & Electronics Prototyping</h3>
+                        <p>I develop intelligent connected systems using ESP32/ESP8266, MicroPython & Arduino, IoT sensors and wireless communication, MQTT, Firebase, cloud connectivity, LoRa/remote sensing systems, and MCU prototyping and electronics design. My embedded systems experience enables me to prototype practical solutions, integrate hardware with software platforms, and bridge physical systems with cloud intelligence.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Professional Print Production & Workflow Management</h3>
+                        <p>Extensive expertise in digital & offset printing, wide-format printing, Variable Data Printing (VDP), end-to-end production workflows, prepress automation & color workflows with hands-on experience with industry-leading platforms including Kodak Prinergy, Esko, GMG, EFI, and Caldera.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Scientific Color Management & Quality Control</h3>
+                        <p>I treat color as a measurable science. Using spectrophotometers, profiling systems, and advanced color workflows, I ensure consistency, precision, and repeatability across multiple print technologies, substrates, and production environments with hands-on experience with technologies from X-Rite, Barbieri, and Heidelberg.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Graphic Production & Digital Asset Creation</h3>
+                        <p>Experienced in end-to-end visual content creation, technical artwork preparation, and production optimization using Adobe Creative Suite including Photoshop, Illustrator, and Digital Publishing workflows.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Developer. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const statusBtn = document.getElementById('status-btn');
+        const responseBox = document.getElementById('status-response');
+
+        statusBtn.addEventListener('click', async () => {
+            statusBtn.disabled = true;
+            statusBtn.textContent = 'Fetching...';
+            responseBox.classList.add('hidden');
+            
+            try {
+                const res = await fetch('/api/status');
+                if (!res.ok) throw new Error('Server responded with ' + res.status);
+                const data = await res.json();
+                responseBox.textContent = JSON.stringify(data, null, 2);
+                responseBox.classList.remove('hidden');
+                responseBox.classList.add('fade-in');
+            } catch (err) {
+                console.error('Fetch error:', err);
+                responseBox.textContent = 'Error: ' + err.message + '. Please ensure the server is running.';
+                responseBox.classList.remove('hidden');
+            } finally {
+                statusBtn.disabled = false;
+                statusBtn.textContent = 'Check API Status';
+            }
+        });
+    </script>
+</body>
+</html>

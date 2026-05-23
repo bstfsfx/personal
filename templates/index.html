@@ -13,80 +13,165 @@
 <body>
     <div class="container">
         <header>
+            <div class="lang-switcher" id="lang-switcher">
+                <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="zh-TW" onclick="switchLanguage('zh-TW')">中文</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">日本語</button>
+            </div>
             <div class="profile-header">
                 <img src="{{ url_for('static', filename='Image.png') }}" alt="Developer" class="profile-img">
                 <div class="profile-info">
-                    <h1 id="main-title">Developer</h1>
-                    <p class="subtitle">Industrial Technology Expert | AIoT & Embedded Systems | Full-Stack Developer | UX/UI | Print & Color Science Specialist | Data-Driven Manufacturing</p>
+                    <h1 id="main-title" data-i18n="title">Developer</h1>
+                    <p class="subtitle" data-i18n="subtitle">Industrial Technology Expert | AIoT & Embedded Systems | Full-Stack Developer | UX/UI | Print & Color Science Specialist | Data-Driven Manufacturing</p>
                 </div>
             </div>
         </header>
         
         <main>
             <section class="card glass">
-                <h2>Professional Summary</h2>
-                <p>I specialize in bridging the gap between industrial production, intelligent automation, software systems, user experience design, and data analytics. With extensive hands-on experience across digital printing, packaging, roll-to-roll production, wide-format printing, color science, prepress workflows, manufacturing operations, and business systems, I combine deep production expertise with modern technologies including AIoT, embedded systems, UX/UI, data analytics, and full-stack web development.</p>
-                <div class="skills">
-                    <span class="skill-tag">AIoT</span>
-                    <span class="skill-tag">Embedded Systems</span>
-                    <span class="skill-tag">Full-Stack Development</span>
-                    <span class="skill-tag">UX/UI Design</span>
-                    <span class="skill-tag">Data Analytics</span>
-                    <span class="skill-tag">Color Science</span>
-                    <span class="skill-tag">Industrial Automation</span>
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Django</span>
-                    <span class="skill-tag">Next.js</span>
-                    <span class="skill-tag">PHP</span>
-                    <span class="skill-tag">SQL</span>
-                    <span class="skill-tag">ESP32</span>
+                <h2 data-i18n="selected-work">Selected Work</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <a href="https://trading-prototype-gamma.vercel.app/" target="_blank" class="project-image-link">
+                            <div class="project-image" style="background-image: url('{{ url_for('static', filename='images/trading-preview.png') }}'); background-size: cover; background-position: center;">
+                                <div class="project-overlay">
+                                    <span class="explore-tag" data-i18n="click-to-explore">Click to Explore →</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-content">
+                            <h3 data-i18n="project-stock-title">Stock Analysis Platform</h3>
+                            <p data-i18n="project-stock-desc">Real-time stock market analysis platform featuring interactive candlestick charts, technical indicators, strategy backtesting, and price prediction.</p>
+                            <div class="project-tags">
+                                <span class="tech-tag" data-i18n="tech-react">React</span>
+                                <span class="tech-tag" data-i18n="tech-plotly">Plotly</span>
+                                <span class="tech-tag" data-i18n="tech-python">Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://trading-prototype-gamma.vercel.app/" target="_blank" class="btn-demo" data-i18n="live-demo">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://mall2-three.vercel.app/" target="_blank" class="project-image-link">
+                            <div class="project-image" style="background-image: url('{{ url_for('static', filename='images/mall-preview.png') }}'); background-size: cover; background-position: center;">
+                                <div class="project-overlay">
+                                    <span class="explore-tag" data-i18n="click-to-explore">Click to Explore →</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-content">
+                            <h3 data-i18n="project-mall-title">MALL² Fashion E-commerce</h3>
+                            <p data-i18n="project-mall-desc">Full-featured fashion retail platform with product catalog, shopping cart, user authentication, order management, and responsive storefront.</p>
+                            <div class="project-tags">
+                                <span class="tech-tag" data-i18n="tech-nextjs">Next.js</span>
+                                <span class="tech-tag" data-i18n="tech-nodejs">Node.js</span>
+                                <span class="tech-tag" data-i18n="tech-mongodb">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://mall2-three.vercel.app/" target="_blank" class="btn-demo" data-i18n="live-demo">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://sushi-bstfsfx-bstfsfxs-projects.vercel.app/" target="_blank" class="project-image-link">
+                            <div class="project-image" style="background-image: url('{{ url_for('static', filename='images/sushi-preview.png') }}'); background-size: cover; background-position: center;">
+                                <div class="project-overlay">
+                                    <span class="explore-tag" data-i18n="click-to-explore">Click to Explore →</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-content">
+                            <h3 data-i18n="project-sushi-title">Sushi Restaurant</h3>
+                            <p data-i18n="project-sushi-desc">Japanese cuisine ordering platform demonstrating menu management, reservation system, and customer engagement features.</p>
+                            <div class="project-tags">
+                                <span class="tech-tag" data-i18n="tech-vuejs">Vue.js</span>
+                                <span class="tech-tag" data-i18n="tech-firebase">Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://sushi-bstfsfx-bstfsfxs-projects.vercel.app/" target="_blank" class="btn-demo" data-i18n="live-demo">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button id="status-btn" class="btn-primary">Check System Status</button>
+            </section>
+            
+            <section class="card glass">
+                <h2 data-i18n="professional-summary">Professional Summary</h2>
+                <p data-i18n="summary-text">I specialize in bridging the gap between industrial production, intelligent automation, software systems, user experience design, and data analytics. With extensive hands-on experience across digital printing, packaging, roll-to-roll production, wide-format printing, color science, prepress workflows, manufacturing operations, and business systems, I combine deep production expertise with modern technologies including AIoT, embedded systems, UX/UI, data analytics, and full-stack web development.</p>
+                <div class="skills">
+                    <span class="skill-tag" data-i18n="skill-aiot">AIoT</span>
+                    <span class="skill-tag" data-i18n="skill-embedded">Embedded Systems</span>
+                    <span class="skill-tag" data-i18n="skill-fullstack">Full-Stack Development</span>
+                    <span class="skill-tag" data-i18n="skill-uxui">UX/UI Design</span>
+                    <span class="skill-tag" data-i18n="skill-data">Data Analytics</span>
+                    <span class="skill-tag" data-i18n="skill-color">Color Science</span>
+                    <span class="skill-tag" data-i18n="skill-automation">Industrial Automation</span>
+                    <span class="skill-tag" data-i18n="skill-python">Python</span>
+                    <span class="skill-tag" data-i18n="skill-django">Django</span>
+                    <span class="skill-tag" data-i18n="skill-nextjs">Next.js</span>
+                    <span class="skill-tag" data-i18n="skill-php">PHP</span>
+                    <span class="skill-tag" data-i18n="skill-sql">SQL</span>
+                    <span class="skill-tag" data-i18n="skill-esp32">ESP32</span>
+                </div>
+                <button id="status-btn" class="btn-primary" data-i18n="check-status">Check System Status</button>
                 <div id="status-response" class="response-box hidden"></div>
             </section>
             
             <section class="card glass">
-                <h2>Core Expertise Areas</h2>
+                <h2 data-i18n="core-expertise">Core Expertise Areas</h2>
                 <div class="expertise-grid">
                     <div class="expertise-item">
-                        <h3>Data-Driven Process Optimization</h3>
-                        <p>Using Python, machine learning concepts, business intelligence methods, and tools such as WEKA, I transform production data into actionable intelligence—helping optimize workflows, identify bottlenecks, predict maintenance needs, improve operational efficiency, and support strategic decision-making.</p>
+                        <h3 data-i18n="expertise-fullstack">Full-Stack Web Development, UX/UI & Business Systems</h3>
+                        <p data-i18n="expertise-fullstack-desc">Designing and building complete web applications, business systems, and intuitive user interfaces that balance technical capability with operational efficiency and usability.</p>
                     </div>
                     <div class="expertise-item">
-                        <h3>Full-Stack Web Development, UX/UI & Business Systems</h3>
-                        <p>I design and develop user-centered digital systems that combine technical capability with usability and operational efficiency. My experience includes creating front-end and back-end web applications, internal enterprise systems & workflow portals, production dashboards & monitoring systems, human-machine interfaces (HMI), data visualization & reporting tools, and automation systems & client portals.</p>
+                        <h3 data-i18n="expertise-aiot">AIoT, Embedded Systems & Electronics Prototyping</h3>
+                        <p data-i18n="expertise-aiot-desc">Developing intelligent connected systems that integrate sensors, microcontrollers, and cloud platforms to enable real-time monitoring, automation, and data-driven decision-making in industrial environments.</p>
                     </div>
                     <div class="expertise-item">
-                        <h3>AIoT, Embedded Systems & Electronics Prototyping</h3>
-                        <p>I develop intelligent connected systems using ESP32/ESP8266, MicroPython & Arduino, IoT sensors and wireless communication, MQTT, Firebase, cloud connectivity, LoRa/remote sensing systems, and MCU prototyping and electronics design. My embedded systems experience enables me to prototype practical solutions, integrate hardware with software platforms, and bridge physical systems with cloud intelligence.</p>
+                        <h3 data-i18n="expertise-print">Professional Print Production & Workflow Management</h3>
+                        <p data-i18n="expertise-print-desc">Managing end-to-end digital printing workflows including prepress automation, color management, variable data printing, and production optimization to ensure consistent quality and efficiency.</p>
                     </div>
                     <div class="expertise-item">
-                        <h3>Professional Print Production & Workflow Management</h3>
-                        <p>Extensive expertise in digital & offset printing, wide-format printing, Variable Data Printing (VDP), end-to-end production workflows, prepress automation & color workflows with hands-on experience with industry-leading platforms including Kodak Prinergy, Esko, GMG, EFI, and Caldera.</p>
+                        <h3 data-i18n="expertise-color">Scientific Color Management & Quality Control</h3>
+                        <p data-i18n="expertise-color-desc">Applying scientific color measurement and profiling techniques to ensure accurate, consistent color reproduction across multiple print technologies, substrates, and production conditions.</p>
                     </div>
                     <div class="expertise-item">
-                        <h3>Scientific Color Management & Quality Control</h3>
-                        <p>I treat color as a measurable science. Using spectrophotometers, profiling systems, and advanced color workflows, I ensure consistency, precision, and repeatability across multiple print technologies, substrates, and production environments with hands-on experience with technologies from X-Rite, Barbieri, and Heidelberg.</p>
+                        <h3 data-i18n="expertise-graphic">Graphic Production & Digital Asset Creation</h3>
+                        <p data-i18n="expertise-graphic-desc">Creating and optimizing visual content, technical artwork, and digital assets using industry-standard tools and workflows to meet production requirements for both print and digital media.</p>
                     </div>
                     <div class="expertise-item">
-                        <h3>Graphic Production & Digital Asset Creation</h3>
-                        <p>Experienced in end-to-end visual content creation, technical artwork preparation, and production optimization using Adobe Creative Suite including Photoshop, Illustrator, and Digital Publishing workflows.</p>
+                        <h3 data-i18n="expertise-data-driven">Data-Driven Process Optimization</h3>
+                        <p data-i18n="expertise-data-driven-desc">Leveraging data analytics, machine learning concepts, and business intelligence tools to transform raw production data into actionable insights for operational optimization and strategic decision-making.</p>
                     </div>
                 </div>
             </section>
+
+            <div class="disclaimer-section">
+                <p class="disclaimer-title">Disclaimer</p>
+                <p class="disclaimer-text" data-i18n="disclaimer-general">The information on this website is provided for informational purposes only and does not constitute professional advice. All views and content are for demonstration purposes only.</p>
+                <p class="disclaimer-text" data-i18n="disclaimer-privacy">No personal information is collected, stored, or processed through this website. This site does not use cookies, tracking mechanisms, or any form of data collection.</p>
+            </div>
         </main>
 
         <footer>
-            <p>&copy; 2026 Developer. All rights reserved.</p>
+            <p data-i18n="footer">&copy; 2026 Developer. All rights reserved.</p>
         </footer>
     </div>
 
+    <script src="{{ url_for('static', filename='js/i18n.js') }}"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', initI18n);
+        
         const statusBtn = document.getElementById('status-btn');
         const responseBox = document.getElementById('status-response');
 
         statusBtn.addEventListener('click', async () => {
             statusBtn.disabled = true;
+            const originalText = statusBtn.textContent;
             statusBtn.textContent = 'Fetching...';
             responseBox.classList.add('hidden');
             
@@ -103,7 +188,7 @@
                 responseBox.classList.remove('hidden');
             } finally {
                 statusBtn.disabled = false;
-                statusBtn.textContent = 'Check API Status';
+                statusBtn.textContent = originalText;
             }
         });
     </script>

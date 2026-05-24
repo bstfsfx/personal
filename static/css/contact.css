@@ -6,6 +6,10 @@
     align-items: flex-start;
 }
 
+.contact-section.hidden {
+    display: none !important;
+}
+
 .contact-info {
     flex: 1;
     min-width: 280px;

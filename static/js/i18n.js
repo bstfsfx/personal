@@ -5,6 +5,7 @@ const translations = {
     en: {
         // Header
         "title": "Developer",
+        "mission": "Building digital capabilities for enterprises",
         "subtitle": "Industrial Technology Expert | AIoT & Embedded Systems | Full-Stack Developer | UX/UI | Print & Color Science Specialist | Data-Driven Manufacturing",
 
         // Selected Work
@@ -89,6 +90,7 @@ const translations = {
     "zh-TW": {
         // Header
         "title": "開發者",
+        "mission": "替企業建立數位能力",
         "subtitle": "工業技術專家 | AIoT 與嵌入式系統 | 全端開發者 | UX/UI | 印刷與色彩科學專家 | 數據驅動製造",
 
         // Selected Work
@@ -173,6 +175,7 @@ const translations = {
     "ja": {
         // Header
         "title": "開発者",
+        "mission": "企業にデジタル能力を構築する",
         "subtitle": "産業技術エキスパート | AIoT & 組込みシステム | フルスタック開発者 | UX/UI | 印刷・色彩科学スペシャリスト | データ駆動型製造",
 
         // Selected Work

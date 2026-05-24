@@ -77,6 +77,14 @@ h1 {
     line-height: 1.5;
 }
 
+.mission {
+    color: var(--accent);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
 .skills {
     display: flex;
     gap: 0.8rem;

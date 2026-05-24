@@ -258,15 +258,19 @@ const translations = {
     }
 };
 
-// Current language
-let currentLang = localStorage.getItem('lang') || 'en';
+// Current language - always default to English
+let currentLang = 'en';
 
 // Initialize i18n
 function initI18n() {
-    // Load saved language preference
+    // Load saved language preference (if any)
     const savedLang = localStorage.getItem('lang');
     if (savedLang && translations[savedLang]) {
         currentLang = savedLang;
+    } else {
+        // Always use English if no valid saved preference
+        currentLang = 'en';
+        localStorage.setItem('lang', 'en');
     }
     
     // Apply translations

@@ -31,9 +31,6 @@ const translations = {
         // Professional Summary
         "professional-summary": "Professional Summary",
         "summary-text": "I specialize in bridging the gap between industrial production, intelligent automation, software systems, user experience design, and data analytics. With extensive hands-on experience across digital printing, packaging, roll-to-roll production, wide-format printing, color science, prepress workflows, manufacturing operations, and business systems, I combine deep production expertise with modern technologies including AIoT, embedded systems, UX/UI, data analytics, and full-stack web development.",
-        "check-status": "Check System Status",
-        "status-online": "Personal website is running perfectly!",
-        "status-fetching": "Fetching...",
 
         // Core Expertise
         "core-expertise": "Core Expertise Areas",
@@ -118,9 +115,6 @@ const translations = {
         // Professional Summary
         "professional-summary": "專業概要",
         "summary-text": "我專精於彌合工業生產、智慧自動化、軟體系統、使用者體驗設計與數據分析之間的鴻溝。擁有數位印刷、包裝、卷對卷生產、大幅面印刷、色彩科學、預檢流程、製造營運與商業系統的豐富實務經驗，我將深厚的生產專業與現代科技結合，包括 AIoT、嵌入式系統、UX/UI、數據分析與全端網頁開發。",
-        "check-status": "檢查系統狀態",
-        "status-online": "個人網站運行良好！",
-        "status-fetching": "取得中...",
 
         // Core Expertise
         "core-expertise": "核心專業領域",
@@ -204,10 +198,7 @@ const translations = {
 
         // Professional Summary
         "professional-summary": "プロフェッショナルサマリー",
-        "summary-text": "私は産業生産、知的自動化、ソフトウェアシステム、ユーザー体験デザイン、データ分析の間のギャップを埋めることを専門としています。デジタル印刷、包装、ロールツーロール生産、大判印刷、色彩科学、プリプレスワークフロー、製造オペレーション、ビジネスシステムに関する豊富な実務経験を持ち、AIoT、組込みシステム、UX/UI、データ分析、フロントエンドとバックエンドWeb開発を含む현대技術を深い生産专业知识と組み合わせています。",
-        "check-status": "システム状態確認",
-        "status-online": "パーソナルウェブサイトは正常に動作しています！",
-        "status-fetching": "取得中...",
+        "summary-text": "私は産業生産、知的自動化、ソフトウェアシステム、ユーザー体験デザイン、データ分析の間のギャップを埋めることを専門としています。デジタル印刷、包装、ロールツーロール生産、大判印刷、色彩科学、プリプレスワークフロー、制造オペレーション、ビジネスシステムに関する豊富な実務経験を持ち、AIoT、組込みシステム、UX/UI、データ分析、フロントエンドとバックエンドWeb開発を含む 현대 기술을深い生産 전문知識と 결합하고 있습니다。",
 
         // Core Expertise
         "core-expertise": "コア専門領域",

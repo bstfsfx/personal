@@ -70,7 +70,23 @@ const translations = {
 
         // Disclaimer
         "disclaimer-general": "The information on this website is provided for informational purposes only and does not constitute professional advice. All views and content are for demonstration purposes only.",
-        "disclaimer-privacy": "No personal information is collected, stored, or processed through this website. This site does not use cookies, tracking mechanisms, or any form of data collection."
+        "disclaimer-privacy": "No personal information is collected, stored, or processed through this website. This site does not use cookies, tracking mechanisms, or any form of data collection.",
+
+        // Contact Form
+        "contact-title": "Get In Touch",
+        "contact-desc": "Have a question or want to work together? Feel free to leave me a message!",
+        "contact-email-label": "Email:",
+        "contact-email": "your.email@example.com",
+        "form-name": "Your Name",
+        "form-name-placeholder": "John Doe",
+        "form-email": "Email Address",
+        "form-email-placeholder": "john@example.com",
+        "form-message": "Message",
+        "form-message-placeholder": "Write your message here...",
+        "form-submit": "Send Message",
+        "form-success": "Thank you! Your message has been sent successfully.",
+        "form-error": "Failed to send message. Please try again later.",
+        "form-blocked": "Submission blocked."
     },
 
     "zh-TW": {
@@ -141,7 +157,23 @@ const translations = {
 
         // Disclaimer
         "disclaimer-general": "本網站資訊僅供參考之用，不構成專業建議。所有觀點與內容僅供示範用途。",
-        "disclaimer-privacy": "本網站不會收集、儲存或處理任何個人資訊。本網站不使用 Cookie、追蹤機制或任何形式的資料收集。"
+        "disclaimer-privacy": "本網站不會收集、儲存或處理任何個人資訊。本網站不使用 Cookie、追蹤機制或任何形式的資料收集。",
+
+        // Contact Form
+        "contact-title": "與我聯絡",
+        "contact-desc": "有問題或想合作嗎？歡迎給我留言！",
+        "contact-email-label": "電子郵件：",
+        "contact-email": "your.email@example.com",
+        "form-name": "您的姓名",
+        "form-name-placeholder": "王小明",
+        "form-email": "電子郵件地址",
+        "form-email-placeholder": "wang@example.com",
+        "form-message": "訊息",
+        "form-message-placeholder": "在此撰寫您的訊息...",
+        "form-submit": "發送訊息",
+        "form-success": "感謝您！您的訊息已成功發送。",
+        "form-error": "訊息發送失敗，請稍後再試。",
+        "form-blocked": "提交已被阻止。"
     },
 
     "ja": {
@@ -212,7 +244,23 @@ const translations = {
 
         // Disclaimer
         "disclaimer-general": "このウェブサイトの情報は情報提供のみを目的としており、専門的なアドバイスではありません。すべての观点と内容はデモンストレーション目的のためのものです。",
-        "disclaimer-privacy": "このウェブサイトでは、個人情報を収集、保存、または処理することはしません。このサイトはCookie、トラッキングメカニズム、またはいかなる形のデータ収集も使用しません。"
+        "disclaimer-privacy": "このウェブサイトでは、個人情報を収集、保存、または処理することはしません。このサイトはCookie、トラッキングメカニズム、またはいかなる形のデータ収集も使用しません。",
+
+        // Contact Form
+        "contact-title": "お問い合わせ",
+        "contact-desc": "ご質問やコラボレーションをご希望の場合は、メッセージをを残してください！",
+        "contact-email-label": "メール：",
+        "contact-email": "your.email@example.com",
+        "form-name": "お名前",
+        "form-name-placeholder": "山田太郎",
+        "form-email": "メールアドレス",
+        "form-email-placeholder": "yamada@example.com",
+        "form-message": "メッセージ",
+        "form-message-placeholder": "ここにメッセージを書いてください...",
+        "form-submit": "送信",
+        "form-success": "ありがとうございます！メッセージは正常に送信されました。",
+        "form-error": "メッセージの送信に失敗しました。後でもう一度お試しください。",
+        "form-blocked": "送信はブロックされました。"
     }
 };
 

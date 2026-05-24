@@ -6,6 +6,7 @@
     <title>Developer - Industrial Technology Expert</title>
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
@@ -150,6 +151,39 @@
                 </div>
             </section>
 
+            <div class="contact-section">
+                <div class="contact-info">
+                    <h2 data-i18n="contact-title">Get In Touch</h2>
+                    <p data-i18n="contact-desc">Have a question or want to work together? Feel free to leave me a message!</p>
+                    <div class="contact-email">
+                        <span class="contact-label" data-i18n="contact-email-label">Email:</span>
+                        <a href="mailto:your.email@example.com" class="email-link" data-i18n="contact-email">your.email@example.com</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <!-- Honeypot - hidden from users -->
+                        <div class="hp-field">
+                            <input type="text" name="website_url" tabindex="-1" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="visitor-name" data-i18n="form-name">Your Name</label>
+                            <input type="text" id="visitor-name" name="name" required data-i18n-placeholder="form-name-placeholder" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="visitor-email" data-i18n="form-email">Email Address</label>
+                            <input type="email" id="visitor-email" name="email" required data-i18n-placeholder="form-email-placeholder" placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="visitor-message" data-i18n="form-message">Message</label>
+                            <textarea id="visitor-message" name="message" required data-i18n-placeholder="form-message-placeholder" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit" data-i18n="form-submit">Send Message</button>
+                        <div id="form-message" class="form-message" style="display: none;"></div>
+                    </form>
+                </div>
+            </div>
+
             <div class="disclaimer-section">
                 <p class="disclaimer-title">Disclaimer</p>
                 <p class="disclaimer-text" data-i18n="disclaimer-general">The information on this website is provided for informational purposes only and does not constitute professional advice. All views and content are for demonstration purposes only.</p>
@@ -163,6 +197,7 @@
     </div>
 
     <script src="{{ url_for('static', filename='js/i18n.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/contact.js') }}"></script>
     <script>
         document.addEventListener('DOMContentLoaded', initI18n);
         

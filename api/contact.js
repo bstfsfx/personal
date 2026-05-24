@@ -1,7 +1,7 @@
 const resendApiKey = process.env.RESEND_API_KEY;
 const recipientEmail = process.env.CONTACT_EMAIL || 'your.email@example.com';
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -23,7 +23,7 @@ module.exports = (req, res) => {
     return res.status(500).json({ error: 'Email service not configured' });
   }
 
-  // Parse body
+  // Parse body - Vercel parses JSON automatically
   const { name, email, message } = req.body || {};
 
   // Validation
@@ -44,41 +44,41 @@ module.exports = (req, res) => {
   const safeEmail = String(email).slice(0, 300).replace(/[<>]/g, '');
   const safeMessage = String(message).slice(0, 2000).replace(/[<>]/g, '');
 
-  // Send email via Resend
-  const fetch = require('node-fetch');
+  try {
+    // Use native fetch (Node 18+)
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${resendApiKey}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: 'Contact Form <onboarding@resend.dev>',
+        to: recipientEmail,
+        subject: `Contact Form: Message from ${safeName}`,
+        html: `
+          <h2>New Contact Form Submission</h2>
+          <p><strong>Name:</strong> ${safeName}</p>
+          <p><strong>Email:</strong> ${safeEmail}</p>
+          <p><strong>Message:</strong></p>
+          <p>${safeMessage.replace(/\n/g, '<br>')}</p>
+        `,
+        reply_to: safeEmail
+      })
+    });
 
-  fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${resendApiKey}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      from: 'Contact Form <onboarding@resend.dev>',
-      to: recipientEmail,
-      subject: `Contact Form: Message from ${safeName}`,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${safeName}</p>
-        <p><strong>Email:</strong> ${safeEmail}</p>
-        <p><strong>Message:</strong></p>
-        <p>${safeMessage.replace(/\n/g, '<br>')}</p>
-      `,
-      reply_to: safeEmail
-    })
-  })
-  .then(response => {
+    const data = await response.json();
+
     if (!response.ok) {
-      throw new Error(`Resend API error: ${response.status}`);
+      console.error('Resend API error:', data);
+      return res.status(500).json({ error: 'Failed to send email' });
     }
-    return response.json();
-  })
-  .then(data => {
+
     console.log('Email sent:', data.id);
     return res.status(200).json({ success: true, message: 'Email sent successfully' });
-  })
-  .catch(error => {
+
+  } catch (error) {
     console.error('Email send error:', error);
     return res.status(500).json({ error: 'Failed to send email' });
-  });
+  }
 };

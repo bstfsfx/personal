@@ -30,6 +30,8 @@ const translations = {
         "project-sushi-desc": "Japanese cuisine ordering platform demonstrating menu management, reservation system, and customer engagement features.",
         "project-mood-title": "MyMindTrack Wellness Dashboard",
         "project-mood-desc": "Privacy-first mood and habit tracking dashboard that visualizes emotional patterns, supports healthy routines, and provides supportive safety alerts.",
+        "project-ecg-title": "HeartGuard AIoT Health Monitor",
+        "project-ecg-desc": "Real-time ECG monitoring dashboard with AI-powered heart health analysis, IoT sensor integration, and alert system for critical conditions.",
 
         // Professional Summary
         "professional-summary": "Professional Summary",
@@ -117,6 +119,8 @@ const translations = {
         "project-sushi-desc": "日式料理點餐平台，展示菜單管理、預約系統與顧客互動功能。",
         "project-mood-title": "MyMindTrack 身心健康儀表板",
         "project-mood-desc": "以隱私為先的情緒與習慣追蹤儀表板，視覺化情緒模式、支援健康作息，並提供具支持性的安全警示。",
+        "project-ecg-title": "HeartGuard AIoT 健康監測儀表板",
+        "project-ecg-desc": "即時心電圖監測儀表板，具備 AI 心臟健康分析、物聯網感測器整合，以及危急情況警示系統。",
 
         // Professional Summary
         "professional-summary": "專業概要",
@@ -204,6 +208,8 @@ const translations = {
         "project-sushi-desc": "メニュー管理、予約システム、顧客エンゲージメント機能を実証する日本料理注文プラットフォーム。",
         "project-mood-title": "MyMindTrack ウェルネスダッシュボード",
         "project-mood-desc": "プライバシーを最優先した気分と習慣のトラッキングダッシュボード。感情のパターンを可視化し、健康的なルーティンをサポートし、支援的な安全アラートを提供します。",
+        "project-ecg-title": "HeartGuard AIoT ヘルスモニター",
+        "project-ecg-desc": "AI駆動の心臓健康分析、IoTセンサー統合、危機的な状態のためのアラートシステムを備えたリアルタイムECG監視ダッシュボード。",
 
         // Professional Summary
         "professional-summary": "プロフェッショナルサマリー",

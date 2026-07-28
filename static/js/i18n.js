@@ -35,7 +35,7 @@ const translations = {
         "project-ecg-title": "HeartGuard AIoT Health Monitor",
         "project-ecg-desc": "Real-time ECG monitoring dashboard with AI-powered heart health analysis, IoT sensor integration, and alert system for critical conditions.",
         "project-bowtique-title": "Bowtique 商店",
-        "project-bowtique-desc": "Fashion e-commerce platform with product catalog, shopping cart, category filtering, and localStorage-based cart persistence.",
+        "project-bowtique-desc": "Membership-based fashion club platform featuring exclusive events, member-only product access, personalized shopping experience, and community engagement features.",
 
         // Professional Summary
         "professional-summary": "Professional Summary",
@@ -128,7 +128,7 @@ const translations = {
         "project-ecg-title": "HeartGuard AIoT 健康監測儀表板",
         "project-ecg-desc": "即時心電圖監測儀表板，具備 AI 心臟健康分析、物聯網感測器整合，以及危急情況警示系統。",
         "project-bowtique-title": "Bowtique 商店",
-        "project-bowtique-desc": "時尚電商平台，具備商品目錄、購物車、分類篩選功能，並使用 localStorage 儲存購物車資料。",
+        "project-bowtique-desc": "會員制時尚俱樂部平台，擁有專屬活動、會員限定商品、個人化購物體驗及社群互動功能。",
 
         // Professional Summary
         "professional-summary": "專業概要",
@@ -221,7 +221,7 @@ const translations = {
         "project-ecg-title": "HeartGuard AIoT ヘルスモニター",
         "project-ecg-desc": "AI駆動の心臓健康分析、IoTセンサー統合、危機的な状態のためのアラートシステムを備えたリアルタイムECG監視ダッシュボード。",
         "project-bowtique-title": "Bowtique ショップ",
-        "project-bowtique-desc": "商品カタログ、カート、カテゴリフィルター、localStorageベースのカート永続化を備えたファッションECプラットフォーム。",
+        "project-bowtique-desc": "会員制ファッションクラブプラットフォーム。限定イベント、メンバーのみアクセス可能な商品、パーソナライズされたショッピング体験、コミュニティエンゲージメント機能を搭載。",
 
         // Professional Summary
         "professional-summary": "プロフェッショナルサマリー",

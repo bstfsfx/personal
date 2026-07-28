@@ -28,6 +28,8 @@ const translations = {
         "project-mall-desc": "Full-featured fashion retail platform with product catalog, shopping cart, user authentication, order management, and responsive storefront.",
         "project-sushi-title": "Sushi Restaurant",
         "project-sushi-desc": "Japanese cuisine ordering platform demonstrating menu management, reservation system, and customer engagement features.",
+        "project-mood-title": "MyMindTrack Wellness Dashboard",
+        "project-mood-desc": "Privacy-first mood and habit tracking dashboard that visualizes emotional patterns, supports healthy routines, and provides supportive safety alerts.",
 
         // Professional Summary
         "professional-summary": "Professional Summary",
@@ -113,6 +115,8 @@ const translations = {
         "project-mall-desc": "全方位時尚零售平台，包含商品目錄、購物車、會員認證、訂單管理與響應式店面。",
         "project-sushi-title": "壽司餐廳",
         "project-sushi-desc": "日式料理點餐平台，展示菜單管理、預約系統與顧客互動功能。",
+        "project-mood-title": "MyMindTrack 身心健康儀表板",
+        "project-mood-desc": "以隱私為先的情緒與習慣追蹤儀表板，視覺化情緒模式、支援健康作息，並提供具支持性的安全警示。",
 
         // Professional Summary
         "professional-summary": "專業概要",
@@ -198,6 +202,8 @@ const translations = {
         "project-mall-desc": "商品カタログショッピングカート、ユーザー認証注文管理、レスポンシブストアフロントを備えたフル功能的ファッション小売プラットフォーム。",
         "project-sushi-title": "寿司レストラン",
         "project-sushi-desc": "メニュー管理、予約システム、顧客エンゲージメント機能を実証する日本料理注文プラットフォーム。",
+        "project-mood-title": "MyMindTrack ウェルネスダッシュボード",
+        "project-mood-desc": "プライバシーを最優先した気分と習慣のトラッキングダッシュボード。感情のパターンを可視化し、健康的なルーティンをサポートし、支援的な安全アラートを提供します。",
 
         // Professional Summary
         "professional-summary": "プロフェッショナルサマリー",

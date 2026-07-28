@@ -32,6 +32,8 @@ const translations = {
         "project-mood-desc": "Privacy-first mood and habit tracking dashboard that visualizes emotional patterns, supports healthy routines, and provides supportive safety alerts.",
         "project-ecg-title": "HeartGuard AIoT Health Monitor",
         "project-ecg-desc": "Real-time ECG monitoring dashboard with AI-powered heart health analysis, IoT sensor integration, and alert system for critical conditions.",
+        "project-bowtique-title": "Bowtique 商店",
+        "project-bowtique-desc": "Fashion e-commerce platform with product catalog, shopping cart, category filtering, and localStorage-based cart persistence.",
 
         // Professional Summary
         "professional-summary": "Professional Summary",
@@ -121,6 +123,8 @@ const translations = {
         "project-mood-desc": "以隱私為先的情緒與習慣追蹤儀表板，視覺化情緒模式、支援健康作息，並提供具支持性的安全警示。",
         "project-ecg-title": "HeartGuard AIoT 健康監測儀表板",
         "project-ecg-desc": "即時心電圖監測儀表板，具備 AI 心臟健康分析、物聯網感測器整合，以及危急情況警示系統。",
+        "project-bowtique-title": "Bowtique 商店",
+        "project-bowtique-desc": "時尚電商平台，具備商品目錄、購物車、分類篩選功能，並使用 localStorage 儲存購物車資料。",
 
         // Professional Summary
         "professional-summary": "專業概要",
@@ -210,6 +214,8 @@ const translations = {
         "project-mood-desc": "プライバシーを最優先した気分と習慣のトラッキングダッシュボード。感情のパターンを可視化し、健康的なルーティンをサポートし、支援的な安全アラートを提供します。",
         "project-ecg-title": "HeartGuard AIoT ヘルスモニター",
         "project-ecg-desc": "AI駆動の心臓健康分析、IoTセンサー統合、危機的な状態のためのアラートシステムを備えたリアルタイムECG監視ダッシュボード。",
+        "project-bowtique-title": "Bowtique ショップ",
+        "project-bowtique-desc": "商品カタログ、カート、カテゴリフィルター、localStorageベースのカート永続化を備えたファッションECプラットフォーム。",
 
         // Professional Summary
         "professional-summary": "プロフェッショナルサマリー",

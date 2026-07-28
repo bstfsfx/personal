@@ -4,12 +4,13 @@
 const translations = {
     en: {
         // Header
-        "title": "Developer",
-        "mission": "Building digital capabilities for enterprises",
-        "subtitle": "Industrial Technology Expert | AIoT & Embedded Systems | Full-Stack Developer | UX/UI | Print & Color Science Specialist | Data-Driven Manufacturing",
+        "title": "AI Workflow Automation",
+        "mission": "Helping enterprises automate workflows with AI",
+        "subtitle": "AI Workflow Automation Implementation Consultants | Process Optimization | Intelligent Automation | Enterprise Integration | Data-Driven Solutions",
+        "hero-cta": "Get Started",
 
-        // Selected Work
-        "selected-work": "Selected Work",
+        // Case Studies
+        "selected-work": "Case Studies",
         "click-to-explore": "Click to Explore →",
         "live-demo": "Live Demo",
         "tech-react": "React",
@@ -23,56 +24,55 @@ const translations = {
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
 
-        // Project descriptions
-        "project-stock-title": "Stock Analysis Platform",
-        "project-stock-desc": "Real-time stock market analysis platform featuring interactive candlestick charts, technical indicators, strategy backtesting, and price prediction.",
-        "project-mall-title": "MALL² Fashion E-commerce",
-        "project-mall-desc": "Full-featured fashion retail platform with product catalog, shopping cart, user authentication, order management, and responsive storefront.",
-        "project-sushi-title": "Sushi Restaurant",
-        "project-sushi-desc": "Japanese cuisine ordering platform demonstrating menu management, reservation system, and customer engagement features.",
-        "project-mood-title": "MyMindTrack Wellness Dashboard",
-        "project-mood-desc": "Privacy-first mood and habit tracking dashboard that visualizes emotional patterns, supports healthy routines, and provides supportive safety alerts.",
-        "project-ecg-title": "HeartGuard AIoT Health Monitor",
-        "project-ecg-desc": "Real-time ECG monitoring dashboard with AI-powered heart health analysis, IoT sensor integration, and alert system for critical conditions.",
-        "project-bowtique-title": "Bowtique 商店",
-        "project-bowtique-desc": "Membership-based fashion club platform featuring exclusive events, member-only product access, personalized shopping experience, and community engagement features.",
+        // Project descriptions - reframed as company case studies
+        "project-stock-title": "Financial Trading Automation",
+        "project-stock-desc": "Real-time stock market analysis platform featuring interactive candlestick charts, technical indicators, strategy backtesting, and AI-powered price prediction for automated trading workflows.",
+        "project-mall-title": "Retail Workflow Automation",
+        "project-mall-desc": "Full-featured fashion retail platform with automated inventory management, order processing, customer authentication, and streamlined storefront operations.",
+        "project-sushi-title": "Food Service Automation",
+        "project-sushi-desc": "Japanese cuisine ordering platform with automated menu management, reservation scheduling, and customer engagement workflows for restaurant operations.",
+        "project-mood-title": "Healthcare Workflow Systems",
+        "project-mood-desc": "Privacy-first wellness tracking dashboard with automated mood pattern analysis, habit monitoring, and intelligent alert workflows for healthcare providers.",
+        "project-ecg-title": "Medical IoT Integration",
+        "project-ecg-desc": "Real-time ECG monitoring dashboard with AI-powered health analysis, IoT sensor integration, and automated critical alert systems for medical facilities.",
+        "project-bowtique-title": "Membership Management System",
+        "project-bowtique-desc": "Automated membership platform with exclusive event management, member-only access workflows, personalized customer experiences, and community engagement features.",
 
-        // Professional Summary
-        "professional-summary": "Professional Summary",
-        "summary-text": "I specialize in bridging the gap between industrial production, intelligent automation, software systems, user experience design, and data analytics. With extensive hands-on experience across digital printing, packaging, roll-to-roll production, wide-format printing, color science, prepress workflows, manufacturing operations, and business systems, I combine deep production expertise with modern technologies including AIoT, embedded systems, UX/UI, data analytics, and full-stack web development.",
+        // Company Overview
+        "professional-summary": "Company Overview",
+        "summary-text": "We specialize in bridging the gap between business operations and intelligent automation. With extensive experience across financial services, retail, healthcare, food service, and manufacturing sectors, we combine deep industry expertise with cutting-edge technologies including AI/ML, IoT, cloud platforms, and full-stack development to deliver practical workflow automation solutions that drive measurable results.",
 
-        // Core Expertise
-        "core-expertise": "Core Expertise Areas",
-        "expertise-data-driven": "Data-Driven Process Optimization",
-        "expertise-data-driven-desc": "Leveraging data analytics, machine learning concepts, and business intelligence tools to transform raw production data into actionable insights for operational optimization and strategic decision-making.",
-        "expertise-fullstack": "Full-Stack Web Development, UX/UI & Business Systems",
-        "expertise-fullstack-desc": "Designing and building complete web applications, business systems, and intuitive user interfaces that balance technical capability with operational efficiency and usability.",
-        "expertise-aiot": "AIoT, Embedded Systems & Electronics Prototyping",
-        "expertise-aiot-desc": "Developing intelligent connected systems that integrate sensors, microcontrollers, and cloud platforms to enable real-time monitoring, automation, and data-driven decision-making in industrial environments.",
-        "expertise-print": "Professional Print Production & Workflow Management",
-        "expertise-print-desc": "Managing end-to-end digital printing workflows including prepress automation, color management, variable data printing, and production optimization to ensure consistent quality and efficiency.",
-        "expertise-color": "Scientific Color Management & Quality Control",
-        "expertise-color-desc": "Applying scientific color measurement and profiling techniques to ensure accurate, consistent color reproduction across multiple print technologies, substrates, and production conditions.",
-        "expertise-graphic": "Graphic Production & Digital Asset Creation",
-        "expertise-graphic-desc": "Creating and optimizing visual content, technical artwork, and digital assets using industry-standard tools and workflows to meet production requirements for both print and digital media.",
+        // Our Services
+        "core-expertise": "Our Services",
+        "expertise-ai": "AI Workflow Implementation",
+        "expertise-ai-desc": "Designing and implementing AI-powered automation workflows that integrate with existing business systems to reduce manual effort and improve decision-making accuracy.",
+        "expertise-automation": "Process Automation Consulting",
+        "expertise-automation-desc": "Analyzing current workflows, identifying bottlenecks, and recommending automation strategies that deliver measurable ROI and operational efficiency improvements.",
+        "expertise-integration": "Integration & API Development",
+        "expertise-integration-desc": "Building custom APIs and integration layers that connect disparate systems, enabling seamless data flow and automated cross-platform workflows.",
+        "expertise-data": "Data Analytics & AI",
+        "expertise-data-desc": "Leveraging data analytics, machine learning, and business intelligence tools to transform raw data into actionable insights for strategic decision-making.",
+        "expertise-web": "Custom Web Applications",
+        "expertise-web-desc": "Designing and building complete web applications and business systems with intuitive interfaces that balance technical capability with operational efficiency.",
+        "expertise-iot": "IoT & Embedded Solutions",
+        "expertise-iot-desc": "Developing intelligent connected systems that integrate sensors, microcontrollers, and cloud platforms for real-time monitoring and automated responses.",
 
-        // Skills
-        "skill-aiot": "AIoT",
-        "skill-embedded": "Embedded Systems",
-        "skill-fullstack": "Full-Stack Development",
-        "skill-uxui": "UX/UI Design",
+        // Skills/Tech Stack
+        "skill-ai": "AI/ML",
+        "skill-automation": "Workflow Automation",
+        "skill-integration": "API Integration",
+        "skill-iot": "IoT Solutions",
+        "skill-cloud": "Cloud Architecture",
         "skill-data": "Data Analytics",
-        "skill-color": "Color Science",
-        "skill-automation": "Industrial Automation",
         "skill-python": "Python",
         "skill-django": "Django",
         "skill-nextjs": "Next.js",
-        "skill-php": "PHP",
-        "skill-sql": "SQL",
-        "skill-esp32": "ESP32",
+        "skill-nodejs": "Node.js",
+        "skill-mongodb": "MongoDB",
+        "skill-aws": "AWS",
 
         // Footer
-        "footer": "© 2026 Developer. All rights reserved.",
+        "footer": "© 2026 AI Workflow Automation. All rights reserved.",
 
         // Disclaimer
         "disclaimer-general": "The information on this website is provided for informational purposes only and does not constitute professional advice. All views and content are for demonstration purposes only.",
@@ -80,15 +80,15 @@ const translations = {
 
         // Contact Form
         "contact-title": "Get In Touch",
-        "contact-desc": "Have a question or want to work together? Feel free to leave me a message!",
+        "contact-desc": "Ready to automate your workflows? Contact us for a consultation on how AI can transform your business operations.",
         "contact-email-label": "Email:",
-        "contact-email": "your.email@example.com",
+        "contact-email": "contact@aiworkflow.com",
         "form-name": "Your Name",
         "form-name-placeholder": "John Doe",
         "form-email": "Email Address",
-        "form-email-placeholder": "john@example.com",
+        "form-email-placeholder": "john@company.com",
         "form-message": "Message",
-        "form-message-placeholder": "Write your message here...",
+        "form-message-placeholder": "Tell us about your automation needs...",
         "form-submit": "Send Message",
         "form-success": "Thank you! Your message has been sent successfully.",
         "form-error": "Failed to send message. Please try again later.",
@@ -97,12 +97,13 @@ const translations = {
 
     "zh-TW": {
         // Header
-        "title": "開發者",
-        "mission": "替企業建立數位能力",
-        "subtitle": "工業技術專家 | AIoT 與嵌入式系統 | 全端開發者 | UX/UI | 印刷與色彩科學專家 | 數據驅動製造",
+        "title": "AI 流程自動化",
+        "mission": "協助企業運用 AI 實現流程自動化",
+        "subtitle": "AI 流程自動化實現顧問 | 流程優化 | 智慧自動化 | 企業整合 | 數據驅動解決方案",
+        "hero-cta": "開始諮詢",
 
-        // Selected Work
-        "selected-work": "精選作品",
+        // Case Studies
+        "selected-work": "案例研究",
         "click-to-explore": "點擊探索 →",
         "live-demo": "前往觀看",
         "tech-react": "React",
@@ -117,71 +118,70 @@ const translations = {
         "tech-localstorage": "LocalStorage",
 
         // Project descriptions
-        "project-stock-title": "股票分析平台",
-        "project-stock-desc": "即時股票市場分析平台，具備互動式K線圖、技術指標、策略回測與價格預測功能。",
-        "project-mall-title": "MALL² 時尚電商",
-        "project-mall-desc": "全方位時尚零售平台，包含商品目錄、購物車、會員認證、訂單管理與響應式店面。",
-        "project-sushi-title": "壽司餐廳",
-        "project-sushi-desc": "日式料理點餐平台，展示菜單管理、預約系統與顧客互動功能。",
-        "project-mood-title": "MyMindTrack 身心健康儀表板",
-        "project-mood-desc": "以隱私為先的情緒與習慣追蹤儀表板，視覺化情緒模式、支援健康作息，並提供具支持性的安全警示。",
-        "project-ecg-title": "HeartGuard AIoT 健康監測儀表板",
-        "project-ecg-desc": "即時心電圖監測儀表板，具備 AI 心臟健康分析、物聯網感測器整合，以及危急情況警示系統。",
-        "project-bowtique-title": "Bowtique 商店",
-        "project-bowtique-desc": "會員制時尚俱樂部平台，擁有專屬活動、會員限定商品、個人化購物體驗及社群互動功能。",
+        "project-stock-title": "金融交易自動化",
+        "project-stock-desc": "即時股票市場分析平台，具備互動式K線圖、技術指標、策略回測與 AI 驅動的價格預測功能，實現自動化交易流程。",
+        "project-mall-title": "零售流程自動化",
+        "project-mall-desc": "全方位時尚零售平台，擁有自動化庫存管理、訂單處理、客戶認證與優化的店面營運流程。",
+        "project-sushi-title": "餐飲服務自動化",
+        "project-sushi-desc": "日式料理點餐平台，具備自動化菜單管理、預約排程與客戶互動流程，優化餐廳營運效率。",
+        "project-mood-title": "醫療保健流程系統",
+        "project-mood-desc": "以隱私為先的健康追蹤儀表板，具備自動化情緒模式分析、習慣監測與智慧警示流程，為醫療服務提供者提供支援。",
+        "project-ecg-title": "醫療物聯網整合",
+        "project-ecg-desc": "即時心電圖監測儀表板，具備 AI 驅動的健康分析、物聯網感測器整合與自動化危急警示系統，為醫療機構提供解決方案。",
+        "project-bowtique-title": "會員管理系統",
+        "project-bowtique-desc": "自動化會員平台，具備專屬活動管理、會員限定存取流程、個人化客戶體驗與社群互動功能。",
 
-        // Professional Summary
-        "professional-summary": "專業概要",
-        "summary-text": "我專精於彌合工業生產、智慧自動化、軟體系統、使用者體驗設計與數據分析之間的鴻溝。擁有數位印刷、包裝、卷對卷生產、大幅面印刷、色彩科學、預檢流程、製造營運與商業系統的豐富實務經驗，我將深厚的生產專業與現代科技結合，包括 AIoT、嵌入式系統、UX/UI、數據分析與全端網頁開發。",
+        // Company Overview
+        "professional-summary": "公司簡介",
+        "summary-text": "我們專精於彌合企業營運與智慧自動化之間的鴻溝。擁有金融服務、零售、醫療保健、餐飲服務及製造產業的豐富經驗，結合深厚的產業專業與尖端科技包括 AI/ML、物聯網、雲端平台與全端開發，提供可衡量成果的實用流程自動化解決方案。",
 
-        // Core Expertise
-        "core-expertise": "核心專業領域",
-        "expertise-data-driven": "數據驅動流程優化",
-        "expertise-data-driven-desc": "運用數據分析、機器學習概念與商業智慧工具，將原始生產數據轉化為可操作的情報，實現營運優化與策略決策。",
-        "expertise-fullstack": "全端網頁開發、UX/UI 與商業系統",
-        "expertise-fullstack-desc": "設計並構建完整的網頁應用程式、商業系統與直覺式使用者介面，兼顧技術能力、營運效率與可用性。",
-        "expertise-aiot": "AIoT、嵌入式系統與電子產品原型",
-        "expertise-aiot-desc": "開發智慧連接系統，整合感測器、微控制器與雲端平台，實現工業環境中的即時監控、自動化與數據驅動決策。",
-        "expertise-print": "專業印刷生產與工作流程管理",
-        "expertise-print-desc": "管理端到端數位印刷工作流程，包括預檢自動化、色彩管理、可變資料印刷與生產優化，確保一致的品質與效率。",
-        "expertise-color": "科學色彩管理與品質控制",
-        "expertise-color-desc": "應用科學色彩測量與分析技術，確保多種印刷技術、基材與生產條件下的準確、一致色彩重現。",
-        "expertise-graphic": "圖形製作與數位資產創作",
-        "expertise-graphic-desc": "使用產業標準工具與工作流程創建與優化視覺內容、技術圖稿與數位資產，滿足印刷與數位媒體的製作需求。",
+        // Our Services
+        "core-expertise": "我們的服務",
+        "expertise-ai": "AI 流程實現",
+        "expertise-ai-desc": "設計並實現 AI 驅動的自動化流程，與現有企業系統整合，減少人力投入並提高決策準確性。",
+        "expertise-automation": "流程自動化顧問",
+        "expertise-automation-desc": "分析現有流程、識別瓶頸，並推薦可帶來可衡量投資回報與營運效率提升的自動化策略。",
+        "expertise-integration": "整合與 API 開發",
+        "expertise-integration-desc": "建立自訂 API 與整合層，連接不同系統，實現無縫資料流與跨平台自動化流程。",
+        "expertise-data": "數據分析與 AI",
+        "expertise-data-desc": "運用數據分析、機器學習與商業智慧工具，將原始數據轉化為可操作的情報，支援策略決策。",
+        "expertise-web": "自訂網頁應用程式",
+        "expertise-web-desc": "設計並構建完整的網頁應用程式與商業系統，透過直覺式介面兼顧技術能力與營運效率。",
+        "expertise-iot": "物聯網與嵌入式解決方案",
+        "expertise-iot-desc": "開發智慧連接系統，整合感測器、微控制器與雲端平台，實現即時監控與自動化回應。",
 
-        // Skills
-        "skill-aiot": "AIoT",
-        "skill-embedded": "嵌入式系統",
-        "skill-fullstack": "全端開發",
-        "skill-uxui": "UX/UI 設計",
+        // Skills/Tech Stack
+        "skill-ai": "AI/ML",
+        "skill-automation": "流程自動化",
+        "skill-integration": "API 整合",
+        "skill-iot": "物聯網解決方案",
+        "skill-cloud": "雲端架構",
         "skill-data": "數據分析",
-        "skill-color": "色彩科學",
-        "skill-automation": "工業自動化",
         "skill-python": "Python",
         "skill-django": "Django",
         "skill-nextjs": "Next.js",
-        "skill-php": "PHP",
-        "skill-sql": "SQL",
-        "skill-esp32": "ESP32",
+        "skill-nodejs": "Node.js",
+        "skill-mongodb": "MongoDB",
+        "skill-aws": "AWS",
 
         // Footer
-        "footer": "© 2026 開發者. 版權所有.",
+        "footer": "© 2026 AI 流程自動化. 版權所有.",
 
         // Disclaimer
         "disclaimer-general": "本網站資訊僅供參考之用，不構成專業建議。所有觀點與內容僅供示範用途。",
         "disclaimer-privacy": "本網站不會收集、儲存或處理任何個人資訊。本網站不使用 Cookie、追蹤機制或任何形式的資料收集。",
 
         // Contact Form
-        "contact-title": "與我聯絡",
-        "contact-desc": "有問題或想合作嗎？歡迎給我留言！",
+        "contact-title": "與我們聯絡",
+        "contact-desc": "準備好實現流程自動化了嗎？聯繫我們諮詢 AI 如何轉變您的企業營運。",
         "contact-email-label": "電子郵件：",
-        "contact-email": "your.email@example.com",
+        "contact-email": "contact@aiworkflow.com",
         "form-name": "您的姓名",
         "form-name-placeholder": "王小明",
         "form-email": "電子郵件地址",
-        "form-email-placeholder": "wang@example.com",
+        "form-email-placeholder": "wang@company.com",
         "form-message": "訊息",
-        "form-message-placeholder": "在此撰寫您的訊息...",
+        "form-message-placeholder": "告訴我們您的自動化需求...",
         "form-submit": "發送訊息",
         "form-success": "感謝您！您的訊息已成功發送。",
         "form-error": "訊息發送失敗，請稍後再試。",
@@ -190,12 +190,13 @@ const translations = {
 
     "ja": {
         // Header
-        "title": "開発者",
-        "mission": "企業にデジタル能力を構築する",
-        "subtitle": "産業技術エキスパート | AIoT & 組込みシステム | フルスタック開発者 | UX/UI | 印刷・色彩科学スペシャリスト | データ駆動型製造",
+        "title": "AI ワークフロー自動化",
+        "mission": "AIで企業のワークフローを自動化する",
+        "subtitle": "AIワークフロー自動化実装コンサルタント | プロセス最適化 | インテリジェント自動化 | エンタープライズ統合 | データ駆動型ソリューション",
+        "hero-cta": "お問い合わせ",
 
-        // Selected Work
-        "selected-work": "厳選作品",
+        // Case Studies
+        "selected-work": "導入事例",
         "click-to-explore": "クリックして探索 →",
         "live-demo": "デモを見る",
         "tech-react": "React",
@@ -210,55 +211,54 @@ const translations = {
         "tech-localstorage": "LocalStorage",
 
         // Project descriptions
-        "project-stock-title": "株式分析プラットフォーム",
-        "project-stock-desc": "インタラクティブなローソク足チャート、技術指標、戦略バックテスト、価格予測を備えたリアルタイム株式市場分析プラットフォーム。",
-        "project-mall-title": "MALL² ファッションEC",
-        "project-mall-desc": "商品カタログショッピングカート、ユーザー認証注文管理、レスポンシブストアフロントを備えたフル功能的ファッション小売プラットフォーム。",
-        "project-sushi-title": "寿司レストラン",
-        "project-sushi-desc": "メニュー管理、予約システム、顧客エンゲージメント機能を実証する日本料理注文プラットフォーム。",
-        "project-mood-title": "MyMindTrack ウェルネスダッシュボード",
-        "project-mood-desc": "プライバシーを最優先した気分と習慣のトラッキングダッシュボード。感情のパターンを可視化し、健康的なルーティンをサポートし、支援的な安全アラートを提供します。",
-        "project-ecg-title": "HeartGuard AIoT ヘルスモニター",
-        "project-ecg-desc": "AI駆動の心臓健康分析、IoTセンサー統合、危機的な状態のためのアラートシステムを備えたリアルタイムECG監視ダッシュボード。",
-        "project-bowtique-title": "Bowtique ショップ",
-        "project-bowtique-desc": "会員制ファッションクラブプラットフォーム。限定イベント、メンバーのみアクセス可能な商品、パーソナライズされたショッピング体験、コミュニティエンゲージメント機能を搭載。",
+        "project-stock-title": "金融取引自動化",
+        "project-stock-desc": "インタラクティブなローソク足チャート、技術指標、戦略バックテスト、AI駆動の価格予測を備えたリアルタイム株式市場分析プラットフォーム。自動化取引ワークフローを実現します。",
+        "project-mall-title": "小売ワークフロー自動化",
+        "project-mall-desc": "自動化在庫管理、注文処理、顧客認証、合理化されたストアフロント機能を備えたフル功能的アパレル小売プラットフォーム。",
+        "project-sushi-title": "食品サービス自動化",
+        "project-sushi-desc": "自動化管理メニュー管理、予約スケジューリング、顧客エンゲージメントワークフローを備えた日本料理注文プラットフォーム。レストラン運営を最適化します。",
+        "project-mood-title": "ヘルスケアワークフローシステム",
+        "project-mood-desc": "プライバシー優先のウェルネストラッキングダッシュボード。自動化された気分のパターン分析、ハビットの監視、医療提供者へのインテリジェントアラートワークフローを提供します。",
+        "project-ecg-title": "医療IoT統合",
+        "project-ecg-desc": "AI駆動の健康分析、IoTセンサー統合、自動化危機アラートシステムを備えたリアルタイムECG監視ダッシュボード。医療施設向けソリューション。",
+        "project-bowtique-title": "会員管理システム",
+        "project-bowtique-desc": "自動化メンバープラットフォーム。限定イベント管理、メンバーのみアクセス可能なワークフロー、パーソナライズされた顧客体験、コミュニティエンゲージメント機能を備えています。",
 
-        // Professional Summary
-        "professional-summary": "プロフェッショナルサマリー",
-        "summary-text": "私は産業生産、知的自動化、ソフトウェアシステム、ユーザー体験デザイン、データ分析の間のギャップを埋めることを専門としています。デジタル印刷、包装、ロールツーロール生産、大判印刷、色彩科学、プリプレスワークフロー、制造オペレーション、ビジネスシステムに関する豊富な実務経験を持ち、AIoT、組込みシステム、UX/UI、データ分析、フロントエンドとバックエンドWeb開発を含む 현대 기술을深い生産 전문知識と 결합하고 있습니다。",
+        // Company Overview
+        "professional-summary": "会社概要",
+        "summary-text": "私たちはビジネスオペレーションとインテリジェント自動化の間にあるギャップを埋めることを専門としています。金融、小売、医療、食品サービス、製造業での豊富な経験から、AI/ML、IoT、クラウドプラットフォーム、フロントエンドとバックエンドWeb開発を含む最先端技术与深い産業専門知識を組み合わせ、測定可能な結果を促進する実用的なワークフロー自動化ソリューションを提供します。",
 
-        // Core Expertise
-        "core-expertise": "コア専門領域",
-        "expertise-data-driven": "データ駆動型プロセス最適化",
-        "expertise-data-driven-desc": "データ分析、機械学習コンセプト、ビジネスインテリジェンスツールを活用し、生のの生産データを実用的なインテリジェンスに変換して運用最適化と戦略的意思決定を実現します。",
-        "expertise-fullstack": "フルスタックWeb開発、UX/UI & ビジネスシステム",
-        "expertise-fullstack-desc": "完全なWebアプリケーション、ビジネスシステム、直感的なユーザーインターフェースを設計・構築し、技術的能力と運用効率とユーザビリティのバランスを実現します。",
-        "expertise-aiot": "AIoT、組込みシステム & エレクトロニクス_prototyping",
-        "expertise-aiot-desc": "センサー、マイクロコントローラー、クラウドプラットフォームを統合し、産業環境でのリアルタイム監視、自動化、データ駆動型意思決定を可能にするインテリジェント接続システムを開発します。",
-        "expertise-print": "プロフェッショナル印刷生産 & ワークフロー管理",
-        "expertise-print-desc": "プリプレス自動化、カラーマネジメント、バリアブルデータ印刷、生産最適化を含むエンドツーエンドのデジタル印刷ワークフローを管理し、一貫した品質と効率を保証します。",
-        "expertise-color": "科学的色彩管理 & 品質管理",
-        "expertise-color-desc": "科學的な色彩測定とプロファイリング技術を応用し、複数の印刷技術、基材、生産条件にわたって正確で一貫した色彩再現を保証します。",
-        "expertise-graphic": "グラフィック制作 & デジタルアセット作成",
-        "expertise-graphic-desc": "業界標準のツールとワークフローを使用して、グラフィックコンテンツ、テクニカルアートワーク、デジタルアセットを作成・最適化し、印刷とデジタルメディアの両方の制作要件を満たします。",
+        // Our Services
+        "core-expertise": "提供しているサービス",
+        "expertise-ai": "AIワークフロー実装",
+        "expertise-ai-desc": "既存のビジネスシステムと統合し、手動作業を削減し意思決定の精度を向上させるAI駆動の自動化ワークフローを設計・実装します。",
+        "expertise-automation": "プロセス自動化コンサルティング",
+        "expertise-automation-desc": "現在のワークフローを分析、ボトルネックを特定し、測定可能なROIと運用効率の改善を実現する自動化戦略を推奨します。",
+        "expertise-integration": "統合・API開発",
+        "expertise-integration-desc": "異なるシステムを接続するカスタムAPIと統合レイヤーを構築し、シームレスなデータフローと自動化されたクロスプラットフォームワークフローを可能にします。",
+        "expertise-data": "データ分析・AI",
+        "expertise-data-desc": "データ分析、機械学習、ビジネスインテリジェンスツールを活用し、生データを実用的なインテリジェンスに変換して戦略的意思決定を実現します。",
+        "expertise-web": "カスタムWebアプリケーション",
+        "expertise-web-desc": "技術的能力と運用効率のバランスを備えた直感的なインターフェースで、完全なWebアプリケーションとビジネスシステムを設計・構築します。",
+        "expertise-iot": "IoT・組み込みソリューション",
+        "expertise-iot-desc": "センサー、マイクロコントローラー、クラウドプラットフォームを統合し、リアルタイム監視と自動応答を実現するインテリジェント接続システムを開発します。",
 
-        // Skills
-        "skill-aiot": "AIoT",
-        "skill-embedded": "組込みシステム",
-        "skill-fullstack": "フルスタック開発",
-        "skill-uxui": "UX/UI 設計",
+        // Skills/Tech Stack
+        "skill-ai": "AI/ML",
+        "skill-automation": "ワークフロー自動化",
+        "skill-integration": "API統合",
+        "skill-iot": "IoTソリューション",
+        "skill-cloud": "クラウドアーキテクチャ",
         "skill-data": "データ分析",
-        "skill-color": "色彩科学",
-        "skill-automation": "産業自動化",
         "skill-python": "Python",
         "skill-django": "Django",
         "skill-nextjs": "Next.js",
-        "skill-php": "PHP",
-        "skill-sql": "SQL",
-        "skill-esp32": "ESP32",
+        "skill-nodejs": "Node.js",
+        "skill-mongodb": "MongoDB",
+        "skill-aws": "AWS",
 
         // Footer
-        "footer": "© 2026 開発者. 全著作権所有.",
+        "footer": "© 2026 AI ワークフロー自動化. 全著作権所有.",
 
         // Disclaimer
         "disclaimer-general": "このウェブサイトの情報は情報提供のみを目的としており、専門的なアドバイスではありません。すべての观点と内容はデモンストレーション目的のためのものです。",
@@ -266,15 +266,15 @@ const translations = {
 
         // Contact Form
         "contact-title": "お問い合わせ",
-        "contact-desc": "ご質問やコラボレーションをご希望の場合は、メッセージをを残してください！",
+        "contact-desc": "ワークフローの自動化を始める準備はできましたか？AIがどのようにビジネスオペレーションを変革できるかについては、お気軽にお問い合わせください。",
         "contact-email-label": "メール：",
-        "contact-email": "your.email@example.com",
+        "contact-email": "contact@aiworkflow.com",
         "form-name": "お名前",
         "form-name-placeholder": "山田太郎",
         "form-email": "メールアドレス",
-        "form-email-placeholder": "yamada@example.com",
+        "form-email-placeholder": "yamada@company.com",
         "form-message": "メッセージ",
-        "form-message-placeholder": "ここにメッセージを書いてください...",
+        "form-message-placeholder": "自動化ニーズについてお聞かせください...",
         "form-submit": "送信",
         "form-success": "ありがとうございます！メッセージは正常に送信されました。",
         "form-error": "メッセージの送信に失敗しました。後でもう一度お試しください。",
@@ -287,20 +287,15 @@ let currentLang = 'en';
 
 // Initialize i18n
 function initI18n() {
-    // Load saved language preference (if any)
     const savedLang = localStorage.getItem('lang');
     if (savedLang && translations[savedLang]) {
         currentLang = savedLang;
     } else {
-        // Always use English if no valid saved preference
         currentLang = 'en';
         localStorage.setItem('lang', 'en');
     }
-    
-    // Apply translations
+
     applyTranslations(currentLang);
-    
-    // Update language switcher UI
     updateLangSwitcher();
 }
 
@@ -308,19 +303,15 @@ function initI18n() {
 function applyTranslations(lang) {
     const t = translations[lang];
     if (!t) return;
-    
-    // Update all elements with data-i18n attribute
+
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (t[key]) {
             el.textContent = t[key];
         }
     });
-    
-    // Update HTML lang attribute
+
     document.documentElement.lang = lang;
-    
-    // Save preference
     localStorage.setItem('lang', lang);
     currentLang = lang;
     updateLangSwitcher();

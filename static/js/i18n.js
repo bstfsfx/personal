@@ -20,6 +20,8 @@ const translations = {
         "tech-mongodb": "MongoDB",
         "tech-vuejs": "Vue.js",
         "tech-firebase": "Firebase",
+        "tech-javascript": "JavaScript",
+        "tech-localstorage": "LocalStorage",
 
         // Project descriptions
         "project-stock-title": "Stock Analysis Platform",
@@ -111,6 +113,8 @@ const translations = {
         "tech-mongodb": "MongoDB",
         "tech-vuejs": "Vue.js",
         "tech-firebase": "Firebase",
+        "tech-javascript": "JavaScript",
+        "tech-localstorage": "LocalStorage",
 
         // Project descriptions
         "project-stock-title": "股票分析平台",
@@ -202,6 +206,8 @@ const translations = {
         "tech-mongodb": "MongoDB",
         "tech-vuejs": "Vue.js",
         "tech-firebase": "Firebase",
+        "tech-javascript": "JavaScript",
+        "tech-localstorage": "LocalStorage",
 
         // Project descriptions
         "project-stock-title": "株式分析プラットフォーム",

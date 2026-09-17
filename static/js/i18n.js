@@ -37,6 +37,8 @@ const translations = {
         "project-ecg-desc": "Real-time ECG monitoring dashboard with AI-powered health analysis, IoT sensor integration, and automated critical alert systems for medical facilities.",
         "project-bowtique-title": "Membership Management System",
         "project-bowtique-desc": "Automated membership platform with exclusive event management, member-only access workflows, personalized customer experiences, and community engagement features.",
+        "project-tiantaiyi-title": "Hospitality & Booking Platform",
+        "project-tiantaiyi-desc": "Boutique hotel website for TianTaiYi on Little Liuqiu Island featuring automated room and accommodation plan presentation, location guides to nearby scenic spots, and LINE-based booking inquiry workflows for seaside hospitality operations.",
 
         // Company Overview
         "professional-summary": "Company Overview",
@@ -130,6 +132,8 @@ const translations = {
         "project-ecg-desc": "即時心電圖監測儀表板，具備 AI 驅動的健康分析、物聯網感測器整合與自動化危急警示系統，為醫療機構提供解決方案。",
         "project-bowtique-title": "會員管理系統",
         "project-bowtique-desc": "自動化會員平台，具備專屬活動管理、會員限定存取流程、個人化客戶體驗與社群互動功能。",
+        "project-tiantaiyi-title": "住宿與訂房平台",
+        "project-tiantaiyi-desc": "為小琉球天台邑旅店打造的民宿網站，具備自動化房型與住宿方案展示、鄰近景點導覽，以及 LINE 訂房詢價流程，優化海島旅宿的顧客互動與訂房作業。",
 
         // Company Overview
         "professional-summary": "公司簡介",
@@ -223,6 +227,8 @@ const translations = {
         "project-ecg-desc": "AI駆動の健康分析、IoTセンサー統合、自動化危機アラートシステムを備えたリアルタイムECG監視ダッシュボード。医療施設向けソリューション。",
         "project-bowtique-title": "会員管理システム",
         "project-bowtique-desc": "自動化メンバープラットフォーム。限定イベント管理、メンバーのみアクセス可能なワークフロー、パーソナライズされた顧客体験、コミュニティエンゲージメント機能を備えています。",
+        "project-tiantaiyi-title": "宿泊・予約プラットフォーム",
+        "project-tiantaiyi-desc": "小琉球の天台邑旅店（TIANTAIYI HOTEL）向けブティックホテルサイト。客室・宿泊プランの自動化された紹介、周辺観光スポットのガイド、LINEでの予約問い合わせワークフローを備え、海辺の宿泊運営を最適化します。",
 
         // Company Overview
         "professional-summary": "会社概要",

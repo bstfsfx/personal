@@ -831,3 +831,32 @@ footer {
     display: block;
     pointer-events: none;
 }
+
+/* ── Standalone workflow intro video card ─────────────────── */
+.video-wrap {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+    margin: 0.25rem 0 1rem;
+}
+
+.video-wrap video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 16px;
+    background: #000;
+}
+
+.video-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.video-links .btn-demo {
+    white-space: nowrap;
+}

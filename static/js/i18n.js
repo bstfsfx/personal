@@ -39,6 +39,10 @@ const translations = {
         "project-bowtique-desc": "Automated membership platform with exclusive event management, member-only access workflows, personalized customer experiences, and community engagement features.",
         "project-tiantaiyi-title": "Hospitality & Booking Platform",
         "project-tiantaiyi-desc": "Boutique hotel website for TianTaiYi on Little Liuqiu Island featuring automated room and accommodation plan presentation, location guides to nearby scenic spots, and LINE-based booking inquiry workflows for seaside hospitality operations.",
+        "project-video-title": "Business Workflow Introduction",
+        "project-video-desc": "Overview of our intelligent workflow automation approach — how we map business processes, identify automation opportunities, and deliver measurable operational improvements across enterprise systems.",
+        "watch-video": "Watch Intro Video",
+        "workflow-video-alt": "Business workflow introduction video",
 
         // Company Overview
         "professional-summary": "Company Overview",
@@ -134,6 +138,10 @@ const translations = {
         "project-bowtique-desc": "自動化會員平台，具備專屬活動管理、會員限定存取流程、個人化客戶體驗與社群互動功能。",
         "project-tiantaiyi-title": "住宿與訂房平台",
         "project-tiantaiyi-desc": "為小琉球天台邑旅店打造的民宿網站，具備自動化房型與住宿方案展示、鄰近景點導覽，以及 LINE 訂房詢價流程，優化海島旅宿的顧客互動與訂房作業。",
+        "project-video-title": "商業流程自動化簡介",
+        "project-video-desc": "概述我們的智慧流程自動化方法 — 如何盤點商業流程、發掘自動化機會，並在企業系統中交付可衡量的營運改善成果。",
+        "watch-video": "觀看簡介影片",
+        "workflow-video-alt": "商業流程自動化簡介影片",
 
         // Company Overview
         "professional-summary": "公司簡介",
@@ -229,6 +237,10 @@ const translations = {
         "project-bowtique-desc": "自動化メンバープラットフォーム。限定イベント管理、メンバーのみアクセス可能なワークフロー、パーソナライズされた顧客体験、コミュニティエンゲージメント機能を備えています。",
         "project-tiantaiyi-title": "宿泊・予約プラットフォーム",
         "project-tiantaiyi-desc": "小琉球の天台邑旅店（TIANTAIYI HOTEL）向けブティックホテルサイト。客室・宿泊プランの自動化された紹介、周辺観光スポットのガイド、LINEでの予約問い合わせワークフローを備え、海辺の宿泊運営を最適化します。",
+        "project-video-title": "ビジネス自動化のご紹介",
+        "project-video-desc": "当社のインテリジェントワークフロー自動化へのアプローチの概要 — ビジネスプロセスの可視化、自動化機会の特定、エンタープライズシステム全体で測定可能な運用改善を実現する方法をご紹介します。",
+        "watch-video": "紹介動画を見る",
+        "workflow-video-alt": "ビジネス自動化の紹介動画",
 
         // Company Overview
         "professional-summary": "会社概要",

@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Workflow Automation - Implementation Consultants</title>
-    <link rel="icon" href="data:,">
+    <meta name="description" content="AI workflow automation implementation consultants helping enterprises automate workflows with AI, IoT, and full-stack engineering.">
+    <meta name="theme-color" content="#38ad73">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/logo-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/logo-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/logo-180.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI Workflow Automation - Implementation Consultants">
+    <meta property="og:description" content="Helping enterprises automate workflows with AI.">
+    <meta property="og:image" content="static/images/logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="static/images/logo.png">
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +22,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="top">
+        <header class="site-nav">
+            <a class="nav-brand" href="#top" aria-label="AI Workflow Automation - home">
+                <picture class="nav-logo-wrap">
+                    <source srcset="static/images/logo.webp" type="image/webp">
+                    <img class="nav-logo" src="static/images/logo.png" alt="AI Workflow Automation logo" width="40" height="40">
+                </picture>
+                <span class="nav-brand-name">AI Workflow Automation</span>
+            </a>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#about" data-i18n="nav-about">About</a>
+                <a href="#case-studies" data-i18n="nav-cases">Case Studies</a>
+                <a href="#contact" data-i18n="nav-contact">Contact Us</a>
+                <div class="lang-switcher nav-lang">
+                    <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" data-lang="zh-TW" onclick="switchLanguage('zh-TW')">中文</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">日本語</button>
+                </div>
+            </nav>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <div class="nav-overlay" id="nav-overlay"></div>
+
+        <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+            <nav class="drawer-links" aria-label="Mobile">
+                <a href="#about" data-i18n="nav-about">About</a>
+                <a href="#case-studies" data-i18n="nav-cases">Case Studies</a>
+                <a href="#contact" data-i18n="nav-contact">Contact Us</a>
+            </nav>
+            <div class="lang-switcher drawer-lang">
+                <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="zh-TW" onclick="switchLanguage('zh-TW')">中文</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">日本語</button>
+            </div>
+        </aside>
+
         <div class="hero-banner">
             <div class="hero-slide" style="background-image: url('static/images/office-hero.jpg');"></div>
             <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80');"></div>
@@ -22,13 +76,6 @@
             <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=80');"></div>
             <div class="hero-overlay"></div>
             <div class="hero-content">
-                <div class="lang-switcher" id="lang-switcher">
-                    <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
-                    <span class="lang-divider">|</span>
-                    <button class="lang-btn" data-lang="zh-TW" onclick="switchLanguage('zh-TW')">中文</button>
-                    <span class="lang-divider">|</span>
-                    <button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">日本語</button>
-                </div>
                 <h1 id="main-title" data-i18n="title">AI Workflow Automation</h1>
                 <p id="mission" class="mission" data-i18n="mission">Helping enterprises automate workflows with AI</p>
                 <p class="subtitle" data-i18n="subtitle">AI Workflow Automation Implementation Consultants | Process Optimization | Intelligent Automation | Enterprise Integration | Data-Driven Solutions</p>
@@ -49,7 +96,7 @@
                 </div>
             </section>
 
-            <section class="card glass">
+            <section class="card glass" id="case-studies">
                 <h2 data-i18n="selected-work">Case Studies</h2>
                 <div class="projects-grid">
                     <div class="project-card">
@@ -273,7 +320,7 @@
                 </div>
             </section>
 
-            <section class="card glass">
+            <section class="card glass" id="about">
                 <h2 data-i18n="professional-summary">Company Overview</h2>
                 <p data-i18n="summary-text">We specialize in bridging the gap between business operations and intelligent automation. With extensive experience across financial services, retail, healthcare, food service, and manufacturing sectors, we combine deep industry expertise with cutting-edge technologies including AI/ML, IoT, cloud platforms, and full-stack development to deliver practical workflow automation solutions that drive measurable results.</p>
                 <div class="skills">
@@ -374,12 +421,17 @@
         </main>
 
         <footer>
+            <picture class="footer-logo-wrap">
+                <source srcset="static/images/logo.webp" type="image/webp">
+                <img class="footer-logo" src="static/images/logo.png" alt="AI Workflow Automation logo" width="44" height="44">
+            </picture>
             <p data-i18n="footer">&copy; 2026 AI Workflow Automation. All rights reserved.</p>
         </footer>
     </div>
 
     <script src="static/js/i18n.js"></script>
     <script src="static/js/contact.js"></script>
+    <script src="static/js/nav.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', initI18n);
 

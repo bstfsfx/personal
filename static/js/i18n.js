@@ -9,6 +9,11 @@ const translations = {
         "subtitle": "AI Workflow Automation Implementation Consultants | Process Optimization | Intelligent Automation | Enterprise Integration | Data-Driven Solutions",
         "hero-cta": "Get Started",
 
+        // Navigation
+        "nav-about": "About",
+        "nav-cases": "Case Studies",
+        "nav-contact": "Contact Us",
+
         // Case Studies
         "selected-work": "Case Studies",
         "click-to-explore": "Click to Explore →",
@@ -116,6 +121,11 @@ const translations = {
         "subtitle": "AI 流程自動化實現顧問 | 流程優化 | 智慧自動化 | 企業整合 | 數據驅動解決方案",
         "hero-cta": "開始諮詢",
 
+        // Navigation
+        "nav-about": "關於我們",
+        "nav-cases": "案例研究",
+        "nav-contact": "聯絡我們",
+
         // Case Studies
         "selected-work": "案例研究",
         "click-to-explore": "點擊探索 →",
@@ -222,6 +232,11 @@ const translations = {
         "mission": "AIで企業のワークフローを自動化する",
         "subtitle": "AIワークフロー自動化実装コンサルタント | プロセス最適化 | インテリジェント自動化 | エンタープライズ統合 | データ駆動型ソリューション",
         "hero-cta": "お問い合わせ",
+
+        // Navigation
+        "nav-about": "会社概要",
+        "nav-cases": "導入事例",
+        "nav-contact": "お問い合わせ",
 
         // Case Studies
         "selected-work": "導入事例",
@@ -359,17 +374,13 @@ function applyTranslations(lang) {
     updateLangSwitcher();
 }
 
-// Update language switcher button
+// Update language switcher buttons (all switcher instances on the page)
 function updateLangSwitcher() {
-    const switcher = document.getElementById('lang-switcher');
-    if (switcher) {
+    document.querySelectorAll('.lang-switcher').forEach(switcher => {
         switcher.querySelectorAll('button').forEach(btn => {
-            btn.classList.remove('active');
-            if (btn.getAttribute('data-lang') === currentLang) {
-                btn.classList.add('active');
-            }
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
         });
-    }
+    });
 }
 
 // Switch language

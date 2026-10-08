@@ -201,7 +201,7 @@ body {
     height: 40px;
     border-radius: 26%;
     object-fit: cover;
-    background: #38ad73;
+    background: #0f7efd;
     border: 2px solid rgba(255, 255, 255, 0.85);
     box-shadow: 0 4px 12px rgba(15, 23, 42, 0.45);
 }
@@ -820,7 +820,7 @@ footer {
     height: 44px;
     border-radius: 28%;
     object-fit: cover;
-    background: #38ad73;
+    background: #0f7efd;
     border: 2px solid rgba(129, 140, 248, 0.5);
     box-shadow: 0 4px 12px rgba(15, 23, 42, 0.35);
 }

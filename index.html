@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Workflow Automation - Implementation Consultants</title>
     <meta name="description" content="AI workflow automation implementation consultants helping enterprises automate workflows with AI, IoT, and full-stack engineering.">
-    <meta name="theme-color" content="#38ad73">
     <link rel="icon" type="image/png" sizes="32x32" href="static/images/logo-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/images/logo-16.png">
+    <link rel="manifest" href="static/manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="AI Workflow">
     <link rel="apple-touch-icon" sizes="180x180" href="static/images/logo-180.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="AI Workflow Automation - Implementation Consultants">
@@ -432,6 +437,13 @@
     <script src="static/js/i18n.js"></script>
     <script src="static/js/contact.js"></script>
     <script src="static/js/nav.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', initI18n);
 
